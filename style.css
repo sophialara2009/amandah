@@ -106,4 +106,37 @@ main.mariana {
 }
 
 
+main.matheus{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: auto;
+    background-color: rgb(168, 173, 245);
+    width: auto;
+    max-width: 1080px;
+    margin: 18px auto 0 auto;
+    header{
+        background-color: #ffffff;
+        width:200px;
+        text-decoration: wavy;
+        color:rgb(207, 179, 255)
+    }
+}
 
+
+main.beatrizI{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: auto;
+    background-color: rgb(168, 204, 245);
+    width: auto;
+    max-width: 1080px;
+    margin: 18px auto 0 auto;
+    header{
+        background-color: #ffffff;
+        width:200px;
+        text-decoration: wavy;
+        color:rgb(116, 143, 191)
+    }
+}
