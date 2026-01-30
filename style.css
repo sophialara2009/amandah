@@ -1,0 +1,109 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    background-color: #4a2d94;
+    font-size: 19px;
+    border-style: double;
+    border-radius: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7a69eb;
+    padding: 10px;
+    height: 40px;
+    border-style: double;
+    border-radius: 10px;
+    margin-top:5px;
+    width:auto;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 8px 12px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    color: #ffffff;
+    background-color: rgba(115, 102, 201, 0.685);
+    box-shadow: 0 4px 8px rgba(60, 23, 67, 0.344);
+    transform: translateY(-2px);
+}
+
+/*nao mexe nisso. eu nao sei oq faz mas faz o site funcionar*/
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+/*Primeiro main e a primeira caixa branca agradecendo ela por estar na página*/
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    background-color: #e0e0e67f;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    max-width: 1080px;
+    margin: 18px auto;
+    border-radius: 10px;
+    header.sophia{
+        background-color: #ececf3d9;
+        width:200px;
+        text-decoration: wavy;
+        color:rgb(103, 103, 173)
+    }
+}
+
+
+/*2a caixa branca apresentando as mensagens.*/
+main.mensagem{
+    display:flex;
+    align-items: center;
+    height: auto;
+    background-color: rgb(242, 242, 249);
+    width:auto;
+    max-width: 1080px;
+    margin:18px auto 0 auto;
+
+}
+/*É a caixa rosa da mariana. O nome dela tá na caixinha branca, e a tag é header. O q ta dentro do código*/
+main.mariana {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: auto;
+    background-color: rgb(225, 168, 245);
+    width: auto;
+    max-width: 1080px;
+    margin: 18px auto 0 auto;
+    header{
+        background-color: #ffffff;
+        width:200px;
+        text-decoration: wavy;
+        color:rgb(250, 179, 255)
+    }
+}
+
+
+
