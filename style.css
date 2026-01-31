@@ -140,3 +140,116 @@ main.beatrizI{
         color:rgb(116, 143, 191)
     }
 }
+main.giovanna{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: auto;
+    background-color: rgb(98, 69, 161);
+    width: auto;
+    max-width: 1080px;
+    margin: 18px auto 0 auto;
+    header{
+        background-color: #ffffff;
+        width:200px;
+        text-decoration: wavy;
+        color:rgb(98, 78, 213)
+    }
+}
+
+main.foto1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    background-color: rgb(225, 168, 245);
+    width: auto;
+    max-width: 1080px;
+    margin: 18px auto 0 auto;
+    header{
+        background-color: #ffffff;
+        width:200px;
+        text-decoration: wavy;
+        color:rgb(250, 179, 255)
+    }
+}
+
+/* Reduz o tamanho da imagem dentro da seção `main.foto1` */
+main.foto1 img{
+    max-width: 320px;
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+main.foto2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    background-color: rgb(168, 173, 245);
+    width: auto;
+    max-width: 1080px;
+    margin: 18px auto 0 auto;
+    header{
+        background-color: #ffffff;
+        width:200px;
+        text-decoration: wavy;
+        color:rgb(207, 179, 255)
+    }
+}
+main.foto2 img{
+    max-width: 320px;
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+main.foto3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    background-color: rgb(168, 204, 245);
+    width: auto;
+    max-width: 1080px;
+    margin: 18px auto 0 auto;
+    header{
+        background-color: #ffffff;
+        width:200px;
+        text-decoration: wavy;
+        color:rgb(116, 143, 191)
+    }
+}
+main.foto3 img{
+    max-width: 320px;
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+main.foto4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    background-color: rgb(98, 69, 161);
+    width: auto;
+    max-width: 1080px;
+    margin: 18px auto 0 auto;
+    header{
+        background-color: #ffffff;
+        width:200px;
+        text-decoration: wavy;
+        color:rgb(98, 78, 213)
+    }
+}
+main.foto4 img{
+    max-width: 320px;
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
