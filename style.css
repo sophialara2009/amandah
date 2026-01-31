@@ -6,17 +6,18 @@ header {
     text-align: center;
     margin: auto;
     padding: 15px;
-    background-color: #4a2d94;
+    background-color: #d7d1f0;
     font-size: 19px;
     border-style: double;
     border-radius: 10px;
+    color:rgb(108, 84, 187);
 }
 
 nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #7a69eb;
+    background-color: #c8c0f9;
     padding: 10px;
     height: 40px;
     border-style: double;
@@ -157,6 +158,57 @@ main.giovanna{
     }
 }
 
+main.giulia{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: auto;
+    background-color: rgb(150, 75, 200);
+    width: auto;
+    max-width: 1080px;
+    margin: 18px auto 0 auto;
+    header{
+        background-color: #ffffff;
+        width:200px;
+        text-decoration: wavy;
+        color:rgb(200, 100, 250)
+    }
+}
+
+main.lari{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: auto;
+    background-color: rgb(214, 84, 173);
+    width: auto;
+    max-width: 1080px;
+    margin: 18px auto 0 auto;
+    header{
+        background-color: #ffffff;
+        width:200px;
+        text-decoration: wavy;
+        color:rgb(255, 105, 180)
+    }
+}
+
+main.anaB{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: auto;
+    background-color: rgb(211, 142, 92);
+    width: auto;
+    max-width: 1080px;
+    margin: 18px auto 0 auto;
+    header{
+        background-color: #ffffff;
+        width:200px;
+        text-decoration: wavy;
+        color:rgb(193, 99, 52)
+    }
+}
+
 main.foto1{
     display: flex;
     flex-direction: column;
@@ -247,6 +299,80 @@ main.foto4{
     }
 }
 main.foto4 img{
+    max-width: 320px;
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+main.foto5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    background-color: rgb(150, 75, 200);
+    width: auto;
+    max-width: 1080px;
+    margin: 18px auto 0 auto;
+    header{
+        background-color: #ffffff;
+        width:200px;
+        text-decoration: wavy;
+        color:rgb(200, 100, 250)
+    }
+}
+
+main.foto5 img{
+    max-width: 320px;
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+main.foto6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    background-color: rgb(214, 84, 173);
+    width: auto;
+    max-width: 1080px;
+    margin: 18px auto 0 auto;
+    header{
+        background-color: #ffffff;
+        width:200px;
+        text-decoration: wavy;
+        color:rgb(255, 105, 180)
+    }
+}
+main.foto6 img{
+    max-width: 320px;
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+main.foto7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    background-color: rgb(211, 142, 92);
+    width: auto;
+    max-width: 1080px;
+    margin: 18px auto 0 auto;
+    header{
+        background-color: #ffffff;
+        width:200px;
+        text-decoration: wavy;
+        color:rgb(193, 99, 52)
+    }
+}
+
+main.foto7 img{
     max-width: 320px;
     width: 100%;
     height: auto;
