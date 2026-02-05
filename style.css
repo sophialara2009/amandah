@@ -68,6 +68,8 @@ main {
     max-width: 1080px;
     margin: 18px auto;
     border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;;
     header.sophia{
         background-color: #ececf3d9;
         width:200px;
@@ -76,6 +78,23 @@ main {
     }
 }
 
+main.bolinho{
+    display: flex;
+    align-items: center;
+    height: auto;
+    background-color: rgba(238, 202, 255, 0.747);
+    width:auto;
+    max-width: 1080px;
+    margin:18px auto 0 auto;
+    border-radius: 1000px;
+    header{
+        background-color: #ffffff;
+        width:250px;
+        text-decoration: wavy;
+        color:rgb(202, 135, 247)
+    }
+
+}
 
 /*2a caixa branca apresentando as mensagens.*/
 main.mensagem{
@@ -206,6 +225,40 @@ main.anaB{
         width:200px;
         text-decoration: wavy;
         color:rgb(193, 99, 52)
+    }
+}
+
+main.lyna{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: auto;
+    background-color: rgb(236, 152, 83);
+    width: auto;
+    max-width: 1080px;
+    margin: 18px auto 0 auto;
+    header{
+        background-color: #ffffff;
+        width:200px;
+        text-decoration: wavy;
+        color:rgb(201, 136, 51)
+    }
+}
+
+main.anaL{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: auto;
+    background-color: rgb(205, 125, 236);
+    width: auto;
+    max-width: 1080px;
+    margin: 18px auto 0 auto;
+    header{
+        background-color: #ffffff;
+        width:200px;
+        text-decoration: wavy;
+        color:rgb(142, 100, 196)
     }
 }
 
@@ -403,4 +456,51 @@ main.foto8 img{
     height: auto;
     display: block;
     border-radius: 10px;
+}
+
+main.foto9{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    background-color: rgb(225, 168, 245);
+    width: auto;
+    max-width: 1080px;
+    margin: 18px auto 0 auto;
+    header{
+        background-color: #ffffff;
+        width:200px;
+        text-decoration: wavy;
+        color:rgb(250, 179, 255)
+    }
+}
+
+main.foto9 img{
+    max-width: 320px;
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+button#btnConfete {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #d18cff;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(119, 0, 255, 0.4);
+    transition: all 0.3s ease;
+}
+
+i.bi.bi-cake2-fill.me-2 {
+    font-size: 50px;
+    margin-right: 10px;
+    size: 100%;
+    color: rgb(255, 255, 255);
+    align-self: center;
+    text-align: center;
 }
